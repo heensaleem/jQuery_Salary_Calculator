@@ -13,38 +13,39 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="jumbotron"> Salary Calculator </h1>
+    <h1 class="jumbotron text-center"> Salary Calculator </h1>
     
-    <div id="inputs">
-       <h3>Add Employee</h3>
-        <input id="firstNameIn" type="text" placeholder="first name"/>
-        <input id="lastNameIn" type="text" placeholder="last name"/>
-        <input id="idNumberIn" type="number" placeholder="id"/>
-        <input id="jobTitleIn" type="text" placeholder="job"/>
-        <input id="annualSalaryIn" type="number" placeholder="annual salary"/>
-        <button id="submit"> submit </button>
-    </div>
+    <div class="container">
+            <h3>Add Employee</h3>
+        <div >
+           <input id="firstNameIn" type="text" placeholder="first name"/>
+           <input id="lastNameIn" type="text" placeholder="last name"/>
+           <input id="idNumberIn" type="number" placeholder="id"/>
+           <input id="jobTitleIn" type="text" placeholder="job"/>
+           <input id="annualSalaryIn" type="number" placeholder="annual salary"/>
+           <button id="submit"> submit </button>
+        </div>   
+    
 
-    
-    
-
-    <div>
         <h3>Employees</h3>
-        <table class="table table-striped">
-            <thead>
-                <th>First name</th>
-                <th>Last Name</th>
-                <th>ID</th>
-                <th>Title</th>
-                <th>Annual Salary</th>
+      <div >
+         
+          <table class=" table table-bordered">
+             <thead class="thead-dark">
+                  <th> First name</th>
+                  <th>Last Name</th>
+                  <th>ID</th>
+                  <th>Title</th>
+                  <th>Annual Salary</th>
                 
-            </thead>
-            <tbody class="tableBody">
+             </thead>
+              <tbody class="tableBody">
 
-            </tbody>
+              </tbody>
 
-        </table>
-    <div/>
+          </table>
+      <div/>
+        </div>
 
     <div id="monthlyCostsOut"> </div>
 
