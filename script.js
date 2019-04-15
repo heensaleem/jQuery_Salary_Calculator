@@ -8,7 +8,7 @@ function readyNow(){
     $('#submit').on('click', addEmployee);
     $('.tableBody').on('click','.deleteButton', function(){
         $(this).parents('tr').remove();
-        $(this)
+       
     });
     
 }
@@ -60,8 +60,8 @@ function addEmployee(){
         
     }
     console.log(monthlyCosts);
-    //
-    $('#monthlyCostsOut').text(`Monthly Cost: ${monthlyCosts}`);
+    
+    $('#monthlyCostsOut').text(`Monthly Cost: ${monthlyCosts} `);
     if(monthlyCosts > 20000){
         document.body.style.backgroundColor = '#FF0000';
     }
